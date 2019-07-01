@@ -1,0 +1,17 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://39.106.71.119:8761/eureka/
+
+spring:
+  application:
+    name: nami
+  cloud:
+    config:
+      discovery:
+        enabled: true #开启配置信息发现
+        service-id: SANJI
+      profile: dev
+      password: EJpdFIgeq3fi2v9F
+      username: sanji
+      name: nami #获取配置文件的名称

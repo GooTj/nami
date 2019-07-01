@@ -36,7 +36,7 @@ public class TokenFilter extends ZuulFilter {
     @Override
     public boolean shouldFilter() {
         /**启用.*/
-        return true;
+        return false;
     }
 
     /**
